@@ -28,4 +28,4 @@ scoreboard objectives add fish.physics.rotx dummy
 scoreboard objectives add fish.physics.rotz dummy
 
 
-execute unless score legiti_exclusive fish.config matches -2147483648..2147483647 run scoreboard players set legiti_exclusive fish.generic.id 0
+execute unless score legiti_exclusive fish.config matches -2147483648..2147483647 run scoreboard players set legiti_exclusive fish.config 0
