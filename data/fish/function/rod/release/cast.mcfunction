@@ -1,0 +1,8 @@
+function animated_java:fishing_rod/animations/charging/stop
+function animated_java:fishing_rod/animations/idle/stop
+function animated_java:fishing_rod/animations/casting/play
+
+scoreboard players set @n[tag=this.release] fish.item_cooldown 50
+
+playsound entity.fishing_bobber.throw master @a ~ ~ ~ 2 0.5
+playsound entity.breeze.whirl master @a ~ ~ ~ 2 1.5

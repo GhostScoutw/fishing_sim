@@ -1,0 +1,1 @@
+execute as @e[tag=rod.body] run data merge entity @s {item:{components:{item_model:"minecraft:stick"}}}
