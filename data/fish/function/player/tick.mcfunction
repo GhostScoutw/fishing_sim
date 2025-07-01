@@ -12,7 +12,11 @@ execute as @s[scores={fish.item_use=1}] if items entity @s weapon.mainhand *[cus
 
 execute if items entity @s weapon.mainhand *[custom_data~{rod:1b}] unless entity @n[tag=this.rod] run function fish:rod/load
 
-execute unless score legiti_exclusive fish.config matches 1.. rotated ~ 0 run tp @n[tag=this.rod] ~ ~-1.8 ~ facing ^ ^ ^10
+execute store result score item_check fish.config run clear @s *[custom_data~{rod:1b}] 0
+execute if score item_check fish.config matches 0 run function fish:rod/give
+execute if score item_check fish.config matches 2.. run clear @s *[custom_data~{rod:1b}] 1
+
+execute unless score legiti_exclusive fish.config matches 1.. rotated ~ 0 run tp @n[tag=this.rod] ~ ~2.2 ~ facing ^ ^ ^10
 execute if score legiti_exclusive fish.config matches 1.. run function fish:legiti_exclusive/rod_ride
 tag @e[tag=this.rod] remove this.rod
 
