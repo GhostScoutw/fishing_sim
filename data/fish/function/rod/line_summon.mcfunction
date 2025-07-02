@@ -19,6 +19,5 @@ execute as @n[tag=init,tag=root.string] at @s positioned ^ ^ ^0.5 run function f
 
 
 function fish:storage/rod/get
-execute as @e[tag=init,tag=root.string] run tag @s remove init
 execute as @e[tag=this.tip] run tag @s remove this.tip
 tag @s remove line.owner
