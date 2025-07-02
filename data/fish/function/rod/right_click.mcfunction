@@ -8,6 +8,7 @@ execute as @e[tag=rod] if score @s fish.generic.id = @p[tag=this.right_click] fi
 
 
 execute as @n[tag=rod.this,tag=!aj.fishing_rod.animation.cast_idle.playing] at @s run function fish:rod/rc/charge_cast
+
 execute as @n[tag=rod.this,tag=aj.fishing_rod.animation.cast_idle.playing,tag=!aj.fishing_rod.animation.charging.playing,tag=!aj.fishing_rod.animation.casting.playing] at @s run function fish:rod/rc/retrieve
 
 execute as @e[tag=rod,tag=rod.this] run tag @s remove rod.this

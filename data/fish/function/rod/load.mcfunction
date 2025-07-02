@@ -19,7 +19,7 @@ execute as @n[tag=aj.fishing_rod.root,tag=!rod] run scoreboard players operation
 execute as @n[tag=aj.fishing_rod.root,tag=!rod] run function animated_java:fishing_rod/animations/idle/play
 
 execute as @n[tag=rod.tip,tag=!synced] run scoreboard players operation @s fish.generic.id = @n[tag=this.player] fish.generic.id
-execute as @n[tag=rod.tip,tag=!synced] run scoreboard players set @s fish.rod.line.segment 8
+execute as @n[tag=rod.tip,tag=!synced] run scoreboard players set @s fish.rod.line.segment 6
 execute as @n[tag=rod.tip,tag=!synced] run tag @s add synced
 
 execute as @n[tag=aj.fishing_rod.root,tag=!rod] run tag @s add rod

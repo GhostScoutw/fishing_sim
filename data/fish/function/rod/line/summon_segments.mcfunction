@@ -10,7 +10,7 @@ execute unless score @s fish.rod.line.segment matches 0 run summon item_display 
 execute if score @s fish.rod.line.segment matches 0 run summon item_display ~ ~ ~ \
     {item:{components:{item_model:"animated_java:blueprint/fishing_rod/bobber"},id:"minecraft:popped_chorus_fruit"},\
     Tags:["init","rod.string","rod.bobber"],teleport_duration:1,\
-    transformation:{left_rotation:[0.0f,0.0f,0.0f,1f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[1.0f,1.0f,1.0f],translation:[0.0f,0.0f,0.0f]}}
+    transformation:{left_rotation:[0.0f,0.0f,0.0f,1f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[1.5f,1.5f,1.5f],translation:[0.0f,0.0f,0.0f]}}
 
 
 

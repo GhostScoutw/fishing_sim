@@ -1,3 +1,6 @@
+
+execute as @e[tag=rod.bobber,scores={fish.bobber.caught=1..}] if score @s fish.generic.id = @n[tag=this.release] fish.generic.id run return fail
+
 function animated_java:fishing_rod/animations/charging/stop
 function animated_java:fishing_rod/animations/idle/stop
 function animated_java:fishing_rod/animations/casting/play

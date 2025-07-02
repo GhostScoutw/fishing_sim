@@ -1,6 +1,6 @@
+say retrieving while caught
 
-execute as @e[tag=rod.bobber] if score @s fish.bobber.caught matches -2147483648..2147483647 \
-    if score @s fish.generic.id = @n[tag=this.right_click] fish.generic.id as @n[tag=this.right_click] as @n[tag=rod.this] at @s run return run function fish:rod/rc/retrieve_caught
+execute as @e[tag=rod.bobber,tag=!aj.fishing_rod.bone] if score @s fish.generic.id = @n[tag=rod.this] fish.generic.id at @s run function fish:fish/entity/create
 
 function animated_java:fishing_rod/animations/idle/stop
 function animated_java:fishing_rod/animations/cast_idle/stop
@@ -13,3 +13,4 @@ scoreboard players set @n[tag=this.right_click] fish.item_cooldown 50
 
 
 playsound entity.fishing_bobber.retrieve master @a ~ ~ ~ 1.5 0.5
+playsound entity.arrow.hit_player master @a ~ ~ ~ 1.5 0.5

@@ -10,7 +10,7 @@ execute at @s if entity @n[tag=this.anchor,distance=1..] run tp @s @n[tag=this.a
 function fish:rod/bobber/physics/get
 rotate @s ~ 0
 
-
+execute at @s if block ~ ~-0.15 ~ water unless score @s fish.rod.reel_charge matches 1.. run function fish:rod/bobber/physics/in_water
 
 execute as @e[tag=rod.string,scores={fish.rod.line.segment=1},tag=this.anchor] run tag @s remove this.anchor
 tag @s remove this.bobber
