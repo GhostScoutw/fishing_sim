@@ -11,3 +11,11 @@ data modify storage aj:temp args.uuid set from entity @s data.uuids.locator_loca
 function animated_java:main_ui/zzz/as_all_locators/execute_as_uuid with storage aj:temp args
 data modify storage aj:temp args.uuid set from entity @s data.uuids.locator_locator4
 function animated_java:main_ui/zzz/as_all_locators/execute_as_uuid with storage aj:temp args
+data modify storage aj:temp args.uuid set from entity @s data.uuids.locator_locator7
+function animated_java:main_ui/zzz/as_all_locators/execute_as_uuid with storage aj:temp args
+data modify storage aj:temp args.uuid set from entity @s data.uuids.locator_locator8
+function animated_java:main_ui/zzz/as_all_locators/execute_as_uuid with storage aj:temp args
+data modify storage aj:temp args.uuid set from entity @s data.uuids.locator_locator9
+function animated_java:main_ui/zzz/as_all_locators/execute_as_uuid with storage aj:temp args
+data modify storage aj:temp args.uuid set from entity @s data.uuids.locator_locator10
+function animated_java:main_ui/zzz/as_all_locators/execute_as_uuid with storage aj:temp args

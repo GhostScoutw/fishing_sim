@@ -1,0 +1,1 @@
+execute as @n[tag=this.menu] at @s run function fish:menu/kill_this

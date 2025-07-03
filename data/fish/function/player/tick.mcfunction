@@ -21,6 +21,9 @@ execute unless score legiti_exclusive fish.config matches 1.. rotated ~ 0 run tp
 execute unless score legiti_exclusive fish.config matches 1.. run tp @n[tag=this.ui] ~ ~2.2 ~
 
 
+
+execute as @n[tag=this.ui] at @s run function fish:menu/tick
+
 execute if score legiti_exclusive fish.config matches 1.. run function fish:legiti_exclusive/rod_ride
 
 tag @e[tag=this.ui] remove this.ui

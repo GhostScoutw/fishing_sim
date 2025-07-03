@@ -11,3 +11,11 @@ data modify storage aj:temp args merge from entity @s data.locators.locator3
 function animated_java:main_ui/zzz/at_all_locators/execute_at_transform with storage aj:temp args
 data modify storage aj:temp args merge from entity @s data.locators.locator4
 function animated_java:main_ui/zzz/at_all_locators/execute_at_transform with storage aj:temp args
+data modify storage aj:temp args merge from entity @s data.locators.locator7
+function animated_java:main_ui/zzz/at_all_locators/execute_at_transform with storage aj:temp args
+data modify storage aj:temp args merge from entity @s data.locators.locator8
+function animated_java:main_ui/zzz/at_all_locators/execute_at_transform with storage aj:temp args
+data modify storage aj:temp args merge from entity @s data.locators.locator9
+function animated_java:main_ui/zzz/at_all_locators/execute_at_transform with storage aj:temp args
+data modify storage aj:temp args merge from entity @s data.locators.locator10
+function animated_java:main_ui/zzz/at_all_locators/execute_at_transform with storage aj:temp args

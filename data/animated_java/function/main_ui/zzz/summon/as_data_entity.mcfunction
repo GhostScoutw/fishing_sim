@@ -25,30 +25,46 @@ summon minecraft:interaction ^0.84375 ^0.25 ^0 {Tags:["aj.global.bone.hook.child
 execute as @n[ type=minecraft:interaction, tag=aj.new, tag=aj.main_ui.locator.locator4, distance=..2.9904557424117724 ] run function animated_java:main_ui/zzz/summon/as_data_entity/as_locator/locator4
 data modify entity @s data.uuids.locator_locator4 set from storage aj:uuid main.out
 data modify entity @s data.locators.locator4.uuid set from storage aj:uuid main.out
+summon minecraft:interaction ^0.75 ^1.75 ^0 {Tags:["aj.global.bone.buttons.child","aj.global.bone.buttons.child.locator","aj.global.bone.buttons.decendant","aj.global.bone.buttons.decendant.locator","aj.global.bone.buttons.tree","aj.global.bone.main.decendant","aj.global.bone.main.decendant.locator","aj.global.bone.main.tree","aj.global.bone.root.decendant","aj.global.bone.root.decendant.locator","aj.global.bone.root.tree","aj.global.entity","aj.global.locator","aj.global.node","aj.global.node.locator7","aj.main_ui.bone.buttons.child","aj.main_ui.bone.buttons.child.locator","aj.main_ui.bone.buttons.decendant","aj.main_ui.bone.buttons.decendant.locator","aj.main_ui.bone.buttons.tree","aj.main_ui.bone.main.decendant","aj.main_ui.bone.main.decendant.locator","aj.main_ui.bone.main.tree","aj.main_ui.bone.root.decendant","aj.main_ui.bone.root.decendant.locator","aj.main_ui.bone.root.tree","aj.main_ui.entity","aj.main_ui.locator","aj.main_ui.locator.locator7","aj.main_ui.node","aj.main_ui.node.locator7","aj.new"]}
+execute as @n[ type=minecraft:interaction, tag=aj.new, tag=aj.main_ui.locator.locator7, distance=..2.903943276465977 ] run function animated_java:main_ui/zzz/summon/as_data_entity/as_locator/locator7
+data modify entity @s data.uuids.locator_locator7 set from storage aj:uuid main.out
+data modify entity @s data.locators.locator7.uuid set from storage aj:uuid main.out
+summon minecraft:interaction ^-0.25 ^1.75 ^0 {Tags:["aj.global.bone.buttons.child","aj.global.bone.buttons.child.locator","aj.global.bone.buttons.decendant","aj.global.bone.buttons.decendant.locator","aj.global.bone.buttons.tree","aj.global.bone.main.decendant","aj.global.bone.main.decendant.locator","aj.global.bone.main.tree","aj.global.bone.root.decendant","aj.global.bone.root.decendant.locator","aj.global.bone.root.tree","aj.global.entity","aj.global.locator","aj.global.node","aj.global.node.locator8","aj.main_ui.bone.buttons.child","aj.main_ui.bone.buttons.child.locator","aj.main_ui.bone.buttons.decendant","aj.main_ui.bone.buttons.decendant.locator","aj.main_ui.bone.buttons.tree","aj.main_ui.bone.main.decendant","aj.main_ui.bone.main.decendant.locator","aj.main_ui.bone.main.tree","aj.main_ui.bone.root.decendant","aj.main_ui.bone.root.decendant.locator","aj.main_ui.bone.root.tree","aj.main_ui.entity","aj.main_ui.locator","aj.main_ui.locator.locator8","aj.main_ui.node","aj.main_ui.node.locator8","aj.new"]}
+execute as @n[ type=minecraft:interaction, tag=aj.new, tag=aj.main_ui.locator.locator8, distance=..2.767766952966369 ] run function animated_java:main_ui/zzz/summon/as_data_entity/as_locator/locator8
+data modify entity @s data.uuids.locator_locator8 set from storage aj:uuid main.out
+data modify entity @s data.locators.locator8.uuid set from storage aj:uuid main.out
+summon minecraft:interaction ^-0.75 ^1.75 ^0 {Tags:["aj.global.bone.buttons.child","aj.global.bone.buttons.child.locator","aj.global.bone.buttons.decendant","aj.global.bone.buttons.decendant.locator","aj.global.bone.buttons.tree","aj.global.bone.main.decendant","aj.global.bone.main.decendant.locator","aj.global.bone.main.tree","aj.global.bone.root.decendant","aj.global.bone.root.decendant.locator","aj.global.bone.root.tree","aj.global.entity","aj.global.locator","aj.global.node","aj.global.node.locator9","aj.main_ui.bone.buttons.child","aj.main_ui.bone.buttons.child.locator","aj.main_ui.bone.buttons.decendant","aj.main_ui.bone.buttons.decendant.locator","aj.main_ui.bone.buttons.tree","aj.main_ui.bone.main.decendant","aj.main_ui.bone.main.decendant.locator","aj.main_ui.bone.main.tree","aj.main_ui.bone.root.decendant","aj.main_ui.bone.root.decendant.locator","aj.main_ui.bone.root.tree","aj.main_ui.entity","aj.main_ui.locator","aj.main_ui.locator.locator9","aj.main_ui.node","aj.main_ui.node.locator9","aj.new"]}
+execute as @n[ type=minecraft:interaction, tag=aj.new, tag=aj.main_ui.locator.locator9, distance=..2.903943276465977 ] run function animated_java:main_ui/zzz/summon/as_data_entity/as_locator/locator9
+data modify entity @s data.uuids.locator_locator9 set from storage aj:uuid main.out
+data modify entity @s data.locators.locator9.uuid set from storage aj:uuid main.out
+summon minecraft:interaction ^-0.5 ^1.75 ^0 {Tags:["aj.global.bone.buttons.child","aj.global.bone.buttons.child.locator","aj.global.bone.buttons.decendant","aj.global.bone.buttons.decendant.locator","aj.global.bone.buttons.tree","aj.global.bone.main.decendant","aj.global.bone.main.decendant.locator","aj.global.bone.main.tree","aj.global.bone.root.decendant","aj.global.bone.root.decendant.locator","aj.global.bone.root.tree","aj.global.entity","aj.global.locator","aj.global.node","aj.global.node.locator10","aj.main_ui.bone.buttons.child","aj.main_ui.bone.buttons.child.locator","aj.main_ui.bone.buttons.decendant","aj.main_ui.bone.buttons.decendant.locator","aj.main_ui.bone.buttons.tree","aj.main_ui.bone.main.decendant","aj.main_ui.bone.main.decendant.locator","aj.main_ui.bone.main.tree","aj.main_ui.bone.root.decendant","aj.main_ui.bone.root.decendant.locator","aj.main_ui.bone.root.tree","aj.main_ui.entity","aj.main_ui.locator","aj.main_ui.locator.locator10","aj.main_ui.node","aj.main_ui.node.locator10","aj.new"]}
+execute as @n[ type=minecraft:interaction, tag=aj.new, tag=aj.main_ui.locator.locator10, distance=..2.8200274723201293 ] run function animated_java:main_ui/zzz/summon/as_data_entity/as_locator/locator10
+data modify entity @s data.uuids.locator_locator10 set from storage aj:uuid main.out
+data modify entity @s data.locators.locator10.uuid set from storage aj:uuid main.out
 execute on vehicle on passengers if entity @s[tag=aj.main_ui.node.item_display] run function animated_java:global/internal/gu/convert_uuid_array_to_string
 data modify entity @s data.uuids.item_display_item_display set from storage aj:uuid main.out
-execute on vehicle on passengers if entity @s[tag=aj.main_ui.node.item_display1] run function animated_java:global/internal/gu/convert_uuid_array_to_string
-data modify entity @s data.uuids.item_display_item_display1 set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.main_ui.node.handle_item] run function animated_java:global/internal/gu/convert_uuid_array_to_string
+data modify entity @s data.uuids.item_display_handle_item set from storage aj:uuid main.out
 execute on vehicle on passengers if entity @s[tag=aj.main_ui.node.handle] run function animated_java:global/internal/gu/convert_uuid_array_to_string
 data modify entity @s data.uuids.bone_handle set from storage aj:uuid main.out
-execute on vehicle on passengers if entity @s[tag=aj.main_ui.node.item_display7] run function animated_java:global/internal/gu/convert_uuid_array_to_string
-data modify entity @s data.uuids.item_display_item_display7 set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.main_ui.node.string_item] run function animated_java:global/internal/gu/convert_uuid_array_to_string
+data modify entity @s data.uuids.item_display_string_item set from storage aj:uuid main.out
 execute on vehicle on passengers if entity @s[tag=aj.main_ui.node.string] run function animated_java:global/internal/gu/convert_uuid_array_to_string
 data modify entity @s data.uuids.bone_string set from storage aj:uuid main.out
-execute on vehicle on passengers if entity @s[tag=aj.main_ui.node.item_display3] run function animated_java:global/internal/gu/convert_uuid_array_to_string
-data modify entity @s data.uuids.item_display_item_display3 set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.main_ui.node.body_item] run function animated_java:global/internal/gu/convert_uuid_array_to_string
+data modify entity @s data.uuids.item_display_body_item set from storage aj:uuid main.out
 execute on vehicle on passengers if entity @s[tag=aj.main_ui.node.body] run function animated_java:global/internal/gu/convert_uuid_array_to_string
 data modify entity @s data.uuids.bone_body set from storage aj:uuid main.out
-execute on vehicle on passengers if entity @s[tag=aj.main_ui.node.item_display9] run function animated_java:global/internal/gu/convert_uuid_array_to_string
-data modify entity @s data.uuids.item_display_item_display9 set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.main_ui.node.bobber_item] run function animated_java:global/internal/gu/convert_uuid_array_to_string
+data modify entity @s data.uuids.item_display_bobber_item set from storage aj:uuid main.out
 execute on vehicle on passengers if entity @s[tag=aj.main_ui.node.bobber] run function animated_java:global/internal/gu/convert_uuid_array_to_string
 data modify entity @s data.uuids.bone_bobber set from storage aj:uuid main.out
-execute on vehicle on passengers if entity @s[tag=aj.main_ui.node.item_display5] run function animated_java:global/internal/gu/convert_uuid_array_to_string
-data modify entity @s data.uuids.item_display_item_display5 set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.main_ui.node.reel_item] run function animated_java:global/internal/gu/convert_uuid_array_to_string
+data modify entity @s data.uuids.item_display_reel_item set from storage aj:uuid main.out
 execute on vehicle on passengers if entity @s[tag=aj.main_ui.node.reel] run function animated_java:global/internal/gu/convert_uuid_array_to_string
 data modify entity @s data.uuids.bone_reel set from storage aj:uuid main.out
-execute on vehicle on passengers if entity @s[tag=aj.main_ui.node.item_display11] run function animated_java:global/internal/gu/convert_uuid_array_to_string
-data modify entity @s data.uuids.item_display_item_display11 set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.main_ui.node.hook_item] run function animated_java:global/internal/gu/convert_uuid_array_to_string
+data modify entity @s data.uuids.item_display_hook_item set from storage aj:uuid main.out
 execute on vehicle on passengers if entity @s[tag=aj.main_ui.node.hook] run function animated_java:global/internal/gu/convert_uuid_array_to_string
 data modify entity @s data.uuids.bone_hook set from storage aj:uuid main.out
 execute on vehicle on passengers if entity @s[tag=aj.main_ui.node.text_display6] run function animated_java:global/internal/gu/convert_uuid_array_to_string
@@ -63,6 +79,32 @@ execute on vehicle on passengers if entity @s[tag=aj.main_ui.node.text_display3]
 data modify entity @s data.uuids.text_display_text_display3 set from storage aj:uuid main.out
 execute on vehicle on passengers if entity @s[tag=aj.main_ui.node.text_display] run function animated_java:global/internal/gu/convert_uuid_array_to_string
 data modify entity @s data.uuids.text_display_text_display set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.main_ui.node.buttons] run function animated_java:global/internal/gu/convert_uuid_array_to_string
+data modify entity @s data.uuids.bone_buttons set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.main_ui.node.stats] run function animated_java:global/internal/gu/convert_uuid_array_to_string
+data modify entity @s data.uuids.text_display_stats set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.main_ui.node.coins] run function animated_java:global/internal/gu/convert_uuid_array_to_string
+data modify entity @s data.uuids.text_display_coins set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.main_ui.node.completion] run function animated_java:global/internal/gu/convert_uuid_array_to_string
+data modify entity @s data.uuids.text_display_completion set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.main_ui.node.biome] run function animated_java:global/internal/gu/convert_uuid_array_to_string
+data modify entity @s data.uuids.text_display_biome set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.main_ui.node.rank] run function animated_java:global/internal/gu/convert_uuid_array_to_string
+data modify entity @s data.uuids.text_display_rank set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.main_ui.node.total_caught] run function animated_java:global/internal/gu/convert_uuid_array_to_string
+data modify entity @s data.uuids.text_display_total_caught set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.main_ui.node.fishing_power] run function animated_java:global/internal/gu/convert_uuid_array_to_string
+data modify entity @s data.uuids.text_display_fishing_power set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.main_ui.node.lure_power] run function animated_java:global/internal/gu/convert_uuid_array_to_string
+data modify entity @s data.uuids.text_display_lure_power set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.main_ui.node.bait_power] run function animated_java:global/internal/gu/convert_uuid_array_to_string
+data modify entity @s data.uuids.text_display_bait_power set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.main_ui.node.sea_blessing] run function animated_java:global/internal/gu/convert_uuid_array_to_string
+data modify entity @s data.uuids.text_display_sea_blessing set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.main_ui.node.luck] run function animated_java:global/internal/gu/convert_uuid_array_to_string
+data modify entity @s data.uuids.text_display_luck set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.main_ui.node.bottom] run function animated_java:global/internal/gu/convert_uuid_array_to_string
+data modify entity @s data.uuids.bone_bottom set from storage aj:uuid main.out
 execute on vehicle on passengers if entity @s[tag=aj.main_ui.node.main] run function animated_java:global/internal/gu/convert_uuid_array_to_string
 data modify entity @s data.uuids.bone_main set from storage aj:uuid main.out
 execute on vehicle on passengers if entity @s[tag=aj.main_ui.node.corner1] run function animated_java:global/internal/gu/convert_uuid_array_to_string

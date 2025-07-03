@@ -5,3 +5,7 @@ function animated_java:main_ui/root/zzz/on_tick/select_locator_locator2 with ent
 function animated_java:main_ui/root/zzz/on_tick/select_locator_locator5 with entity @s data.locators.locator5
 function animated_java:main_ui/root/zzz/on_tick/select_locator_locator3 with entity @s data.locators.locator3
 function animated_java:main_ui/root/zzz/on_tick/select_locator_locator4 with entity @s data.locators.locator4
+function animated_java:main_ui/root/zzz/on_tick/select_locator_locator7 with entity @s data.locators.locator7
+function animated_java:main_ui/root/zzz/on_tick/select_locator_locator8 with entity @s data.locators.locator8
+function animated_java:main_ui/root/zzz/on_tick/select_locator_locator9 with entity @s data.locators.locator9
+function animated_java:main_ui/root/zzz/on_tick/select_locator_locator10 with entity @s data.locators.locator10

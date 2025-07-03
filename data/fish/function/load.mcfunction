@@ -34,4 +34,17 @@ scoreboard objectives add fish.bobber.caught_progress dummy
 scoreboard objectives add fish.pool.roll dummy
 
 
+scoreboard objectives add fish.stat.coins dummy
+scoreboard objectives add fish.stat.total_caught dummy
+scoreboard objectives add fish.stat.rank dummy
+
+scoreboard objectives add fish.stat.fishing_power dummy
+scoreboard objectives add fish.stat.lure_power dummy
+scoreboard objectives add fish.stat.bait_power dummy
+scoreboard objectives add fish.stat.sea_blessing dummy
+scoreboard objectives add fish.stat.luck dummy
+
+scoreboard objectives add fish.stat.completion dummy
+
+
 execute unless score legiti_exclusive fish.config matches -2147483648..2147483647 run scoreboard players set legiti_exclusive fish.config 0
