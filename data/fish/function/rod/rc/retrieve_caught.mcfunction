@@ -1,4 +1,3 @@
-say retrieving while caught
 
 execute as @e[tag=rod.bobber,tag=!aj.fishing_rod.bone] if score @s fish.generic.id = @n[tag=rod.this] fish.generic.id at @s run function fish:fish/entity/create
 
@@ -13,4 +12,4 @@ scoreboard players set @n[tag=this.right_click] fish.item_cooldown 50
 
 
 playsound entity.fishing_bobber.retrieve master @a ~ ~ ~ 1.5 0.5
-playsound entity.arrow.hit_player master @a ~ ~ ~ 1.5 0.5
+playsound entity.arrow.hit_player master @p[tag=this.right_click] ~ ~ ~ 0.5 0.5
