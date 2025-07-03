@@ -24,7 +24,7 @@ execute as @n[tag=aj.main_ui.root,tag=!synced] on passengers as @s[nbt={item:{id
 execute as @n[tag=aj.main_ui.root,tag=!synced] on passengers as @s[nbt={item:{id:"minecraft:purple_dye"}}] run tag @s add menu.slot.hook
 
 execute as @n[tag=aj.main_ui.root,tag=!synced] run function animated_java:main_ui/animations/spawn/play
-
+execute as @n[tag=aj.main_ui.root,tag=!synced] run rotate @s ~ 0
 execute as @n[tag=aj.main_ui.root,tag=!synced] run tag @s add synced
 execute as @e[tag=menu.hitbox,tag=!synced] run tag @s add synced
 execute as @e[tag=menu.slot,tag=!synced] run tag @s add synced
