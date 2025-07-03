@@ -2,5 +2,6 @@
 execute unless entity @s[tag=aj.main_ui.root] run return 0
 execute unless score @s aj.is_rig_loaded matches 1 run function #animated_java:global/root/on_load
 execute if entity @s[tag=aj.main_ui.animation.spawn.playing] run function animated_java:main_ui/animations/spawn/zzz/on_tick
+execute if entity @s[tag=aj.main_ui.animation.despawn.playing] run function animated_java:main_ui/animations/despawn/zzz/on_tick
 execute on passengers if entity @s[tag=aj.main_ui.data] run function animated_java:main_ui/root/zzz/on_tick/locators_and_cameras
 execute at @s on passengers run rotate @s ~ ~

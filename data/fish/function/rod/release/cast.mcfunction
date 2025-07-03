@@ -1,3 +1,7 @@
+execute if entity @n[tag=block_cast] run return run tag @n[tag=block_cast] remove block_cast
+
+execute as @e[tag=menu_gui] if score @s fish.generic.id = @n[tag=this.release] fish.generic.id run return fail
+
 
 execute as @e[tag=rod.bobber,scores={fish.bobber.caught=1..}] if score @s fish.generic.id = @n[tag=this.release] fish.generic.id run return fail
 
