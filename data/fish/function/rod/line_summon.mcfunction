@@ -11,9 +11,9 @@ execute as @n[tag=this.tip] at @s run summon item_display ~ ~ ~ \
 
 execute as @n[tag=init,tag=root.string] at @n[tag=this.tip] run tp @s ~ ~ ~ facing ^ ^ ^10
 
-execute as @n[tag=init,tag=root.string] run scoreboard players operation @s fish.generic.id = @n[tag=rod.tip] fish.generic.id
+execute as @n[tag=init,tag=root.string] run scoreboard players operation @s fish.generic.id = @n[tag=this.tip] fish.generic.id
 
-execute as @n[tag=init,tag=root.string] run scoreboard players operation @s fish.rod.line.segment = @n[tag=rod.tip] fish.rod.line.segment
+execute as @n[tag=init,tag=root.string] run scoreboard players operation @s fish.rod.line.segment = @n[tag=this.tip] fish.rod.line.segment
 
 execute as @n[tag=init,tag=root.string] at @s positioned ^ ^ ^0.5 run function fish:rod/line/summon_segments
 
