@@ -16,6 +16,6 @@ execute if score @s fish.bobber.caught matches 0 run scoreboard players reset @s
 execute if score @s fish.bobber.bobbing matches 20.. run scoreboard players set @s fish.bobber.bobbing -20
 
 
-execute unless score @s fish.bobber.caught matches 1.. run scoreboard players add @s fish.bobber.caught_progress 1
-execute if score @s fish.bobber.caught_progress matches 100 unless score @s fish.bobber.caught matches -2147483648..2147483647 at @s run function fish:rod/bobber/physics/caught_wave
-execute if score @s fish.bobber.caught_progress matches 100 unless score @s fish.bobber.caught matches -2147483648..2147483647 run scoreboard players set @s fish.bobber.caught 60
+#execute unless score @s fish.bobber.caught matches 1.. run scoreboard players add @s fish.bobber.caught_progress 1
+execute if score @s fish.bobber.caught_progress matches 100.. unless score @s fish.bobber.caught matches -2147483648..2147483647 at @s run function fish:rod/bobber/caught_wave
+execute if score @s fish.bobber.caught_progress matches 100.. unless score @s fish.bobber.caught matches -2147483648..2147483647 run scoreboard players set @s fish.bobber.caught 60

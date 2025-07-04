@@ -42,9 +42,15 @@ scoreboard objectives add fish.stat.fishing_power dummy
 scoreboard objectives add fish.stat.lure_power dummy
 scoreboard objectives add fish.stat.bait_power dummy
 scoreboard objectives add fish.stat.sea_blessing dummy
+
+scoreboard objectives add fish.stat.sea_blessing.stack dummy
+
 scoreboard objectives add fish.stat.luck dummy
 
 scoreboard objectives add fish.stat.completion dummy
 
+
+scoreboard objectives add fish.constant dummy
+scoreboard players set 10 fish.constant 10
 
 execute unless score legiti_exclusive fish.config matches -2147483648..2147483647 run scoreboard players set legiti_exclusive fish.config 0
