@@ -14,4 +14,9 @@ summon item_display ~ ~ ~ {Tags:["fish.entity","init"],teleport_duration:1,item:
         value:10,\
         fish_id:1,\
         rarity:4\
-}}}}
+        \
+        }}},transformation:{\
+                        scale:[1.0f,1.0f,1.0f],\
+                        left_rotation:[0.0f,0.0f,0.0f,1.0f],\
+                        right_rotation:[0.0f,0.0f,0.0f,1.0f],\
+                        translation:[0.0f,0.0f,0.0f]}}
