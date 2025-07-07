@@ -9,10 +9,11 @@
 
 $give @s $(id)[item_name='$(item_name)',lore=$(lore),custom_data=$(custom_data),enchantment_glint_override=$(glint),item_model="$(item_model)"]
 
+
+$function fish:storage/fish/get {fish:"$(item_model)"}
+
 $tellraw @s [{"text":"[","color": "dark_gray"},{"text":"+1","color": "gold"},{"text":"] ","color": "dark_gray"},$(item_name)]
 scoreboard players add @s fish.stat.total_caught 1
 kill @n[tag=this.fish]
-
-
 
 
