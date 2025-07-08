@@ -6,6 +6,9 @@ execute if score @s fish.bobber.bobbing matches 0 align y if block ~ ~-0.5 ~ wat
 
 execute if score @s fish.bobber.bobbing matches 10 run function fish:rod/bobber/apply_stats
 
+execute if score @s fish.bobber.bobbing matches 19 run function fish:rod/bobber/apply_stats
+execute if score @s fish.bobber.bobbing matches -19 run function fish:rod/bobber/apply_stats
+
 execute if score @s fish.bobber.bobbing matches -10 run function fish:rod/bobber/apply_stats
 
 
