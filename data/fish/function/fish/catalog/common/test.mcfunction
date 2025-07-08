@@ -1,7 +1,7 @@
 summon item_display ~ ~ ~ {Tags:["fish.entity","init"],teleport_duration:1,item:\
 {id:"minecraft:cod",components:{\
 \
-        item_model:"minecraft:cod",\
+        item_model:"fish:blueprint/catfish",\
 \
         enchantment_glint_override:false,\
 \

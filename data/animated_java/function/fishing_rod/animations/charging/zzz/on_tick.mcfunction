@@ -5,5 +5,5 @@ execute if score @s aj.tween_duration matches 0 on passengers run data modify en
 data remove storage aj:temp args
 execute store result storage aj:temp args.frame int 1 run scoreboard players get @s aj.charging.frame
 function animated_java:fishing_rod/animations/charging/zzz/apply_frame with storage aj:temp args
-execute if score @s aj.charging.frame matches 60.. run return run function animated_java:fishing_rod/animations/charging/pause
+execute if score @s aj.charging.frame matches 20.. run return run function animated_java:fishing_rod/animations/charging/pause
 scoreboard players add @s aj.charging.frame 1

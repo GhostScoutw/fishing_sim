@@ -1,6 +1,6 @@
 scoreboard players set @s fish.item_use 5
 
-scoreboard players add @s fish.rod.reel_charge 1
+scoreboard players add @s fish.rod.reel_charge 3
 
 tag @s add this.right_click
 
