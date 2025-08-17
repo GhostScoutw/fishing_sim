@@ -5,15 +5,15 @@ summon item_display ~ ~ ~ {Tags:["fish.entity","init"],teleport_duration:1,item:
 \
         enchantment_glint_override:false,\
 \
-        item_name:'[{"text":"[LEGENDARY] ","color":"gold"},\
-        {"text":"Dirtfish","color":"white"}]',\
+        item_name:[{"text":"[LEGENDARY] ","color":"gold"},\
+        {"text":"Dirtfish","color":"white"}],\
 \
-        lore:['{"text":""}',\
-        '{"text":"Dirtfish are a new discovery in science, serving as the","italic":false,"color":"aqua"}',\
-        '{"text":"progenitor of golems in nature. Previously thought of","italic":false,"color":"aqua"}',\
-        '{"text":"to be just a joke made up by locals, it is indeed real","italic":false,"color":"aqua"}',\
-        '{"text":"and can survive both on land and on water, since instead of","italic":false,"color":"aqua"}',\
-        '{"text":"breathing, it absorbs oxygen present in nearby dirt.","italic":false,"color":"aqua"}',],\
+        lore:[{"text":""},\
+        {"text":"Dirtfish are a new discovery in science, serving as the","italic":false,"color":"aqua"},\
+        {"text":"progenitor of golems in nature. Previously thought of","italic":false,"color":"aqua"},\
+        {"text":"to be just a joke made up by locals, it is indeed real","italic":false,"color":"aqua"},\
+        {"text":"and can survive both on land and on water, since instead of","italic":false,"color":"aqua"},\
+        {"text":"breathing, it absorbs oxygen present in nearby dirt.","italic":false,"color":"aqua"},],\
 \
         custom_data:{fish:1b,\
         value:10,\

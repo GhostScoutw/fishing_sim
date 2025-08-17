@@ -5,15 +5,15 @@ summon item_display ~ ~ ~ {Tags:["fish.entity","init"],teleport_duration:1,item:
 \
         enchantment_glint_override:false,\
 \
-        item_name:'[{"text":"[UNCOMMON] ","color":"green"},\
-        {"text":"Black Bass","color":"white"}]',\
+        item_name:[{"text":"[UNCOMMON] ","color":"green"},\
+        {"text":"Black Bass","color":"white"}],\
 \
-        lore:['{"text":""}',\
-        '{"text":"Black sea bass are protogynous hermaphrodites, meaning ","italic":false,"color":"aqua"}',\
-        '{"text":"they start as females and can change into males. They ","italic":false,"color":"aqua"}',\
-        '{"text":"are renowned for their strong fighting ability, making ","italic":false,"color":"aqua"}',\
-        '{"text":"them a popular target for anglers. Male black bass build ","italic":false,"color":"aqua"}',\
-        '{"text":"nests and aggressively guard the eggs and fry from predators. ","italic":false,"color":"aqua"}',],\
+        lore:[{"text":""},\
+        {"text":"Black sea bass are protogynous hermaphrodites, meaning ","italic":false,"color":"aqua"},\
+        {"text":"they start as females and can change into males. They ","italic":false,"color":"aqua"},\
+        {"text":"are renowned for their strong fighting ability, making ","italic":false,"color":"aqua"},\
+        {"text":"them a popular target for anglers. Male black bass build ","italic":false,"color":"aqua"},\
+        {"text":"nests and aggressively guard the eggs and fry from predators. ","italic":false,"color":"aqua"},],\
 \
         custom_data:{fish:1b,\
         value:10,\

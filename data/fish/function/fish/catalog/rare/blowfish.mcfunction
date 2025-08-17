@@ -5,15 +5,15 @@ summon item_display ~ ~ ~ {Tags:["fish.entity","init"],teleport_duration:1,item:
 \
         enchantment_glint_override:false,\
 \
-        item_name:'[{"text":"[RARE] ","color":"aqua"},\
-        {"text":"Blowfish","color":"white"}]',\
+        item_name:[{"text":"[RARE] ","color":"aqua"},\
+        {"text":"Blowfish","color":"white"}],\
 \
-        lore:['{"text":""}',\
-        '{"text":"Blowfish, also known as pufferfish, are famous for their ","italic":false,"color":"aqua"}',\
-        '{"text":"ability to inflate their bodies when threatened, turning ","italic":false,"color":"aqua"}',\
-        '{"text":"into a spiky ball. Despite their defenses, they are popular","italic":false,"color":"aqua"}',\
-        '{"text":" in the aquarium trade and even a delicacy, fugu, in Japan. ","italic":false,"color":"aqua"}',\
-        '{"text":"","italic":false,"color":"aqua"}',],\
+        lore:[{"text":""},\
+        {"text":"Blowfish, also known as pufferfish, are famous for their ","italic":false,"color":"aqua"},\
+        {"text":"ability to inflate their bodies when threatened, turning ","italic":false,"color":"aqua"},\
+        {"text":"into a spiky ball. Despite their defenses, they are popular","italic":false,"color":"aqua"},\
+        {"text":" in the aquarium trade and even a delicacy, fugu, in Japan. ","italic":false,"color":"aqua"},\
+        {"text":"","italic":false,"color":"aqua"},],\
 \
         custom_data:{fish:1b,\
         value:10,\

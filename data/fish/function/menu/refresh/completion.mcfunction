@@ -5,6 +5,6 @@ execute if biome ~ ~ ~ the_void run return run function fish:menu/refresh/comple
 
 
 data merge entity @s {text:\
-        '[{"text":"Completion: \\n","color":"gold","bold": true},\
+        [{"text":"Completion: \\n","color":"gold","bold": true},\
         {"text":"None","color": "gray"},\
-        {"text":" %","color":"gold"}]'}
+        {"text":" %","color":"gold"}]}

@@ -5,14 +5,14 @@ summon item_display ~ ~ ~ {Tags:["fish.entity","init"],teleport_duration:1,item:
 \
         enchantment_glint_override:false,\
 \
-        item_name:'[{"text":"[COMMON] ","color":"gray"},\
-        {"text":"Anchovy","color":"white"}]',\
+        item_name:[{"text":"[COMMON] ","color":"gray"},\
+        {"text":"Anchovy","color":"white"}],\
 \
-        lore:['{"text":""}',\
-        '{"text":"Anchovies have been consumed by humans for centuries ","italic":false,"color":"aqua"}',\
-        '{"text":"and were a significant part of the Roman diet. ","italic":false,"color":"aqua"}',\
-        '{"text":"They were also used as a source of flavor in ancient ","italic":false,"color":"aqua"}',\
-        '{"text":"Roman garum, a fermented fish sauce.","italic":false,"color":"aqua"}'],\
+        lore:[{"text":""},\
+        {"text":"Anchovies have been consumed by humans for centuries ","italic":false,"color":"aqua"},\
+        {"text":"and were a significant part of the Roman diet. ","italic":false,"color":"aqua"},\
+        {"text":"They were also used as a source of flavor in ancient ","italic":false,"color":"aqua"},\
+        {"text":"Roman garum, a fermented fish sauce.","italic":false,"color":"aqua"}],\
 \
         custom_data:{fish:1b,\
         value:10,\

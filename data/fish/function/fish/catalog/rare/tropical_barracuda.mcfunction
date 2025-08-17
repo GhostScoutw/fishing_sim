@@ -5,15 +5,15 @@ summon item_display ~ ~ ~ {Tags:["fish.entity","init"],teleport_duration:1,item:
 \
         enchantment_glint_override:false,\
 \
-        item_name:'[{"text":"[RARE] ","color":"aqua"},\
-        {"text":"Tropical Barracuda","color":"white"}]',\
+        item_name:[{"text":"[RARE] ","color":"aqua"},\
+        {"text":"Tropical Barracuda","color":"white"}],\
 \
-        lore:['{"text":""}',\
-        '{"text":"They are fierce, fast-swimming predators found in warm, ","italic":false,"color":"aqua"}',\
-        '{"text":"tropical and subtropical oceans worldwide. They are known ","italic":false,"color":"aqua"}',\
-        '{"text":"for their long, slender bodies, powerful jaws, and sharp teeth, ","italic":false,"color":"aqua"}',\
-        '{"text":"making them formidable hunters. They hunt using a combination ","italic":false,"color":"aqua"}',\
-        '{"text":"of speed and ambush tactics to catch their prey. ","italic":false,"color":"aqua"}',],\
+        lore:[{"text":""},\
+        {"text":"They are fierce, fast-swimming predators found in warm, ","italic":false,"color":"aqua"},\
+        {"text":"tropical and subtropical oceans worldwide. They are known ","italic":false,"color":"aqua"},\
+        {"text":"for their long, slender bodies, powerful jaws, and sharp teeth, ","italic":false,"color":"aqua"},\
+        {"text":"making them formidable hunters. They hunt using a combination ","italic":false,"color":"aqua"},\
+        {"text":"of speed and ambush tactics to catch their prey. ","italic":false,"color":"aqua"},],\
 \
         custom_data:{fish:1b,\
         value:10,\

@@ -5,15 +5,15 @@ summon item_display ~ ~ ~ {Tags:["fish.entity","init"],teleport_duration:1,item:
 \
         enchantment_glint_override:false,\
 \
-        item_name:'[{"text":"[COMMON] ","color":"gray"},\
-        {"text":"Yellow Perch","color":"white"}]',\
+        item_name:[{"text":"[COMMON] ","color":"gray"},\
+        {"text":"Yellow Perch","color":"white"}],\
 \
-        lore:['{"text":""}',\
-        '{"text":"Yellow perch travel in schools of 50 to 200 fish. They ","italic":false,"color":"aqua"}',\
-        '{"text":"arrange their school by size and age, and swim in a ","italic":false,"color":"aqua"}',\
-        '{"text":"spindle shape. Large adults are less likely to travel ","italic":false,"color":"aqua"}',\
-        '{"text":"in schools. Male and female yellow perch often segregate","italic":false,"color":"aqua"}',\
-        '{"text":"into separate schools.","italic":false,"color":"aqua"}',],\
+        lore:[{"text":""},\
+        {"text":"Yellow perch travel in schools of 50 to 200 fish. They ","italic":false,"color":"aqua"},\
+        {"text":"arrange their school by size and age, and swim in a ","italic":false,"color":"aqua"},\
+        {"text":"spindle shape. Large adults are less likely to travel ","italic":false,"color":"aqua"},\
+        {"text":"in schools. Male and female yellow perch often segregate","italic":false,"color":"aqua"},\
+        {"text":"into separate schools.","italic":false,"color":"aqua"},],\
 \
         custom_data:{fish:1b,\
         value:10,\

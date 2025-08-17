@@ -5,15 +5,15 @@ summon item_display ~ ~ ~ {Tags:["fish.entity","init"],teleport_duration:1,item:
 \
         enchantment_glint_override:false,\
 \
-        item_name:'[{"text":"[COMMON] ","color":"gray"},\
-        {"text":"Surgeonfish","color":"white"}]',\
+        item_name:[{"text":"[COMMON] ","color":"gray"},\
+        {"text":"Surgeonfish","color":"white"}],\
 \
-        lore:['{"text":""}',\
-        '{"text":"Most surgeonfish eat algae and are herbivores, with ","italic":false,"color":"aqua"}',\
-        '{"text":"special mouths shaped for nibbling on seaweed or scraping ","italic":false,"color":"aqua"}',\
-        '{"text":"the surfaces of rocks. Surgeonfish play an important role ","italic":false,"color":"aqua"}',\
-        '{"text":"within coral reefs because they graze on limu (algae) and ","italic":false,"color":"aqua"}',\
-        '{"text":"keep it from growing out of control.","italic":false,"color":"aqua"}',],\
+        lore:[{"text":""},\
+        {"text":"Most surgeonfish eat algae and are herbivores, with ","italic":false,"color":"aqua"},\
+        {"text":"special mouths shaped for nibbling on seaweed or scraping ","italic":false,"color":"aqua"},\
+        {"text":"the surfaces of rocks. Surgeonfish play an important role ","italic":false,"color":"aqua"},\
+        {"text":"within coral reefs because they graze on limu (algae) and ","italic":false,"color":"aqua"},\
+        {"text":"keep it from growing out of control.","italic":false,"color":"aqua"},],\
 \
         custom_data:{fish:1b,\
         value:10,\

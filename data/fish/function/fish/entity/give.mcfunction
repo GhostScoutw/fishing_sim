@@ -8,7 +8,7 @@ data modify storage fish:temp fish.glint set from entity @n[tag=this.fish] item.
 data modify storage fish:temp fish.item_model set from entity @n[tag=this.fish] item.components.minecraft:item_model
 
 execute unless data storage fish:temp fish.id run data modify storage fish:temp fish.id set value "minecraft:cod"
-execute unless data storage fish:temp fish.item_name run data modify storage fish:temp fish.item_name set value '{"text":"Cod"}'
+execute unless data storage fish:temp fish.item_name run data modify storage fish:temp fish.item_name set value {"text":"Cod"}
 execute unless data storage fish:temp fish.lore run data modify storage fish:temp fish.lore set value []
 execute unless data storage fish:temp fish.custom_data run data modify storage fish:temp fish.custom_data set value {}
 execute unless data storage fish:temp fish.glint run data modify storage fish:temp fish.glint set value false

@@ -7,7 +7,7 @@
 
 
 
-$give @s $(id)[item_name='$(item_name)',lore=$(lore),custom_data=$(custom_data),enchantment_glint_override=$(glint),item_model="$(item_model)"]
+$give @s $(id)[item_name=$(item_name),lore=$(lore),custom_data=$(custom_data),enchantment_glint_override=$(glint),item_model="$(item_model)"]
 
 
 $function fish:storage/fish/get {fish:"$(item_model)"}

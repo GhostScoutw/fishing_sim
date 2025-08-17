@@ -5,10 +5,10 @@ summon item_display ~ ~ ~ {Tags:["fish.entity","init"],teleport_duration:1,item:
 \
         enchantment_glint_override:false,\
 \
-        item_name:'[{"text":"[UNCOMMON] ","color":"green"},\
-        {"text":"Cod.","color":"white"}]',\
+        item_name:[{"text":"[UNCOMMON] ","color":"green"},\
+        {"text":"Cod.","color":"white"}],\
 \
-        lore:['{"text":""}','{"text":"Fish, in the flesh.","italic":false,"color":"aqua"}'],\
+        lore:[{"text":""},{"text":"Fish, in the flesh.","italic":false,"color":"aqua"}],\
 \
         custom_data:{fish:1b,\
         value:10,\

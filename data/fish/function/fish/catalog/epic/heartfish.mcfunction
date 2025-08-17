@@ -5,15 +5,15 @@ summon item_display ~ ~ ~ {Tags:["fish.entity","init"],teleport_duration:1,item:
 \
         enchantment_glint_override:false,\
 \
-        item_name:'[{"text":"[EPIC] ","color":"light_purple"},\
-        {"text":"Heartfish","color":"white"}]',\
+        item_name:[{"text":"[EPIC] ","color":"light_purple"},\
+        {"text":"Heartfish","color":"white"}],\
 \
-        lore:['{"text":""}',\
-        '{"text":"You feel like someone would really like to use this","italic":false,"color":"aqua"}',\
-        '{"text":"guy for something...","italic":false,"color":"aqua"}',\
-        '{"text":"When you hold it to your ears, you can hear the rhythmic","italic":false,"color":"aqua"}',\
-        '{"text":"beat of a heart, even with knowing for sure that this","italic":false,"color":"aqua"}',\
-        '{"text":"thing already died.","italic":false,"color":"aqua"}',],\
+        lore:[{"text":""},\
+        {"text":"You feel like someone would really like to use this","italic":false,"color":"aqua"},\
+        {"text":"guy for something...","italic":false,"color":"aqua"},\
+        {"text":"When you hold it to your ears, you can hear the rhythmic","italic":false,"color":"aqua"},\
+        {"text":"beat of a heart, even with knowing for sure that this","italic":false,"color":"aqua"},\
+        {"text":"thing already died.","italic":false,"color":"aqua"},],\
 \
         custom_data:{fish:1b,\
         value:10,\

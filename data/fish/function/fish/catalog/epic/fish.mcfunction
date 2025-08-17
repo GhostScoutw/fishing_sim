@@ -5,15 +5,15 @@ summon item_display ~ ~ ~ {Tags:["fish.entity","init"],teleport_duration:1,item:
 \
         enchantment_glint_override:false,\
 \
-        item_name:'[{"text":"[EPIC] ","color":"light_purple"},\
-        {"text":"Fish","color":"white"}]',\
+        item_name:[{"text":"[EPIC] ","color":"light_purple"},\
+        {"text":"Fish","color":"white"}],\
 \
-        lore:['{"text":""}',\
-        '{"text":"Looking at this fish for some reason reminds you of a much","italic":false,"color":"aqua"}',\
-        '{"text":"simpler time. You may want time to rewind to this era of","italic":false,"color":"aqua"}',\
-        '{"text":"your life, but just as we are prisoners to the passage of","italic":false,"color":"aqua"}',\
-        '{"text":"time, so are our precious memories to the inevitable.","italic":false,"color":"aqua"}',\
-        '{"text":"","italic":false,"color":"aqua"}',],\
+        lore:[{"text":""},\
+        {"text":"Looking at this fish for some reason reminds you of a much","italic":false,"color":"aqua"},\
+        {"text":"simpler time. You may want time to rewind to this era of","italic":false,"color":"aqua"},\
+        {"text":"your life, but just as we are prisoners to the passage of","italic":false,"color":"aqua"},\
+        {"text":"time, so are our precious memories to the inevitable.","italic":false,"color":"aqua"},\
+        {"text":"","italic":false,"color":"aqua"},],\
 \
         custom_data:{fish:1b,\
         value:10,\

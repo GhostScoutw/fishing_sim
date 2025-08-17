@@ -5,15 +5,15 @@ summon item_display ~ ~ ~ {Tags:["fish.entity","init"],teleport_duration:1,item:
 \
         enchantment_glint_override:false,\
 \
-        item_name:'[{"text":"[EPIC] ","color":"light_purple"},\
-        {"text":"Chickenfish","color":"white"}]',\
+        item_name:[{"text":"[EPIC] ","color":"light_purple"},\
+        {"text":"Chickenfish","color":"white"}],\
 \
-        lore:['{"text":""}',\
-        '{"text":"Ok, this is just straight up a chicken. Who in their","italic":false,"color":"aqua"}',\
-        '{"text":"right minds would call this a fish!?","italic":false,"color":"aqua"}',\
-        '{"text":"...","italic":false,"color":"aqua"}',\
-        '{"text":"...Are those gills...?","italic":false,"color":"aqua"}',\
-        '{"text":"...What on earth...","italic":false,"color":"aqua"}',],\
+        lore:[{"text":""},\
+        {"text":"Ok, this is just straight up a chicken. Who in their","italic":false,"color":"aqua"},\
+        {"text":"right minds would call this a fish!?","italic":false,"color":"aqua"},\
+        {"text":"...","italic":false,"color":"aqua"},\
+        {"text":"...Are those gills...?","italic":false,"color":"aqua"},\
+        {"text":"...What on earth...","italic":false,"color":"aqua"},],\
 \
         custom_data:{fish:1b,\
         value:10,\

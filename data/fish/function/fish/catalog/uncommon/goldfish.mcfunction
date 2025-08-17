@@ -5,15 +5,15 @@ summon item_display ~ ~ ~ {Tags:["fish.entity","init"],teleport_duration:1,item:
 \
         enchantment_glint_override:false,\
 \
-        item_name:'[{"text":"[UNCOMMON] ","color":"green"},\
-        {"text":"Goldfish","color":"white"}]',\
+        item_name:[{"text":"[UNCOMMON] ","color":"green"},\
+        {"text":"Goldfish","color":"white"}],\
 \
-        lore:['{"text":""}',\
-        '{"text":"Goldfish are fascinating creatures with several unique ","italic":false,"color":"aqua"}',\
-        '{"text":"characteristics. They dont have stomachs, they lack eyelids, ","italic":false,"color":"aqua"}',\
-        '{"text":"and they can live for a surprisingly long time, sometimes up ","italic":false,"color":"aqua"}',\
-        '{"text":"to 20 years with proper care. They also have excellent eyesight ","italic":false,"color":"aqua"}',\
-        '{"text":"and can even see colors invisible to humans.","italic":false,"color":"aqua"}',],\
+        lore:[{"text":""},\
+        {"text":"Goldfish are fascinating creatures with several unique ","italic":false,"color":"aqua"},\
+        {"text":"characteristics. They dont have stomachs, they lack eyelids, ","italic":false,"color":"aqua"},\
+        {"text":"and they can live for a surprisingly long time, sometimes up ","italic":false,"color":"aqua"},\
+        {"text":"to 20 years with proper care. They also have excellent eyesight ","italic":false,"color":"aqua"},\
+        {"text":"and can even see colors invisible to humans.","italic":false,"color":"aqua"},],\
 \
         custom_data:{fish:1b,\
         value:10,\
