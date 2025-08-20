@@ -12,5 +12,6 @@ execute as @e[tag=rod.tip] run function fish:rod/tip_check
 execute as @e[tag=rod.bobber,tag=!aj.fishing_rod.bone] at @s run function fish:rod/bobber/tick
 
 execute as @e[tag=fish.entity] at @s run function fish:fish/entity/tick
+execute as @e[tag=fish.display] at @s run function fish:fish/entity/display/tick
 
 execute as @e[tag=menu.hitbox] at @s run function fish:menu/hitbox/tick

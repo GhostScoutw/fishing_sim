@@ -5,6 +5,8 @@
 tellraw @a {"text":"Line is cast","color":"aqua","underlined": true}
 
 scoreboard objectives add fish.generic.id dummy
+scoreboard objectives add fish.generic.lifetime dummy
+
 scoreboard objectives add fish.config dummy
 scoreboard objectives add fish.item_cooldown dummy
 
