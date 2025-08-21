@@ -1,6 +1,8 @@
 
 data modify storage fish:temp display.fish.item_model set from entity @s item.components."minecraft:item_model"
 data modify storage fish:temp display.fish.name set from entity @s item.components."minecraft:item_name"
+data modify storage fish:temp display.fish.quality set from entity @s item.components.minecraft:lore[{color:"gold"}]
+
 
 execute store result storage fish:temp display.fish.randx float 0.1 run random value 0..3600
 

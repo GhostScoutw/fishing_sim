@@ -15,5 +15,6 @@ execute unless data storage fish:temp fish.glint run data modify storage fish:te
 execute unless data storage fish:temp fish.item_model run data modify storage fish:temp fish.item_model set value "minecraft:cod"
 
 
+
 function fish:fish/entity/give_apply with storage fish:temp fish
 
