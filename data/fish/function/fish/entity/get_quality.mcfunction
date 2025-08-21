@@ -1,7 +1,7 @@
 #quality 1 check
 execute store result score quality_roll fish.pool.roll run random value 0..100
 scoreboard players operation quality_roll fish.pool.roll += @p[tag=this.player] fish.stat.bait_power
-tellraw @a {score:{name:"quality_roll",objective:"fish.pool.roll"}}
+
 execute if score quality_roll fish.pool.roll matches ..49 run tag @s add quality_1
 
 #quality 2 check
