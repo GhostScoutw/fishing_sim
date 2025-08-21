@@ -1,19 +1,19 @@
 summon item_display ~ ~ ~ {Tags:["fish.entity","init"],teleport_duration:1,item:\
 {id:"minecraft:cod",components:{\
 \
-        item_model:"fish:blueprint/yellow_perch",\
+        item_model:"fish:blueprint/perch",\
 \
         enchantment_glint_override:false,\
 \
         item_name:[{"text":"[COMMON] ","color":"gray"},\
-        {"text":"Yellow Perch","color":"white"}],\
+        {"text":"Perch","color":"white"}],\
 \
         lore:[{"text":""},\
-        {"text":"Yellow perch travel in schools of 50 to 200 fish. They ","italic":false,"color":"aqua"},\
-        {"text":"arrange their school by size and age, and swim in a ","italic":false,"color":"aqua"},\
-        {"text":"spindle shape. Large adults are less likely to travel ","italic":false,"color":"aqua"},\
-        {"text":"in schools. Male and female yellow perch often segregate","italic":false,"color":"aqua"},\
-        {"text":"into separate schools.","italic":false,"color":"aqua"},],\
+        {"text":"Perch are typically yellow to gold with ","italic":false,"color":"aqua"},\
+        {"text":"6-8 dark, olive-green vertical stripes ","italic":false,"color":"aqua"},\
+        {"text":"along their sides. Perch are carnivorous, ","italic":false,"color":"aqua"},\
+        {"text":"feeding on invertebrates.they travel in","italic":false,"color":"aqua"},\
+        {"text":"schools of 50-200, arranged by size and age.","italic":false,"color":"aqua"},],\
 \
         custom_data:{fish:1b,\
         value:10,\
