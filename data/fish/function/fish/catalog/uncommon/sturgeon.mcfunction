@@ -9,11 +9,11 @@ summon item_display ~ ~ ~ {Tags:["fish.entity","init"],teleport_duration:1,item:
         {"text":"Sturgeon","color":"white"}],\
 \
         lore:[{"text":""},\
-        {"text":"Black sea bass are protogynous hermaphrodites, meaning ","italic":false,"color":"aqua"},\
-        {"text":"they start as females and can change into males. They ","italic":false,"color":"aqua"},\
-        {"text":"are renowned for their strong fighting ability, making ","italic":false,"color":"aqua"},\
-        {"text":"them a popular target for anglers. Male black bass build ","italic":false,"color":"aqua"},\
-        {"text":"nests and aggressively guard the eggs and fry from predators. ","italic":false,"color":"aqua"},],\
+        {"text":"Sturgeons have a unique, almost prehistoric appearance ","italic":false,"color":"aqua"},\
+        {"text":"due to their long, spindle-like bodies and the rows of ","italic":false,"color":"aqua"},\
+        {"text":"bony plates, or scutes, that cover their skin instead ","italic":false,"color":"aqua"},\
+        {"text":"of scales. Instead of bone, their skeletons are made of ","italic":false,"color":"aqua"},\
+        {"text":"cartilage, similar to sharks. ","italic":false,"color":"aqua"},],\
 \
         custom_data:{fish:1b,\
         value:10,\
