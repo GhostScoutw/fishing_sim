@@ -9,10 +9,10 @@ summon item_display ~ ~ ~ {Tags:["fish.entity","init"],teleport_duration:1,item:
         {"text":"herring","color":"white"}],\
 \
         lore:[{"text":""},\
-        {"text":"Anchovies have been consumed by humans for centuries ","italic":false,"color":"aqua"},\
-        {"text":"and were a significant part of the Roman diet. ","italic":false,"color":"aqua"},\
-        {"text":"They were also used as a source of flavor in ancient ","italic":false,"color":"aqua"},\
-        {"text":"Roman garum, a fermented fish sauce.","italic":false,"color":"aqua"}],\
+        {"text":"Herring has played a pivotal role in marine fisheries and ","italic":false,"color":"aqua"},\
+        {"text":"the history of food trade in regions like Europe. Their ","italic":false,"color":"aqua"},\
+        {"text":"bodies are bluish-green on top and silver on their sides,","italic":false,"color":"aqua"},\
+        {"text":"which help camouflage them from predators.","italic":false,"color":"aqua"}],\
 \
         custom_data:{fish:1b,\
         value:10,\
