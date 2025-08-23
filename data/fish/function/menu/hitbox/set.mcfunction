@@ -1,6 +1,8 @@
 $tellraw @p[tag=this.player] [{"text":"Replacing $(component_type) slot with ","color":"aqua"},$(item_name)]
 item replace entity @p[tag=this.player] weapon.mainhand with air
 
+playsound entity.item_frame.add_item master @p[tag=this.player] ~ ~ ~ 2 0.5
+
 execute if data entity @s item.components run function fish:menu/hitbox/retrieve with entity @s item.components.minecraft:custom_data
 
 execute unless data entity @s item run data merge entity @s {item:{id:"minecraft:string",count:1}}
