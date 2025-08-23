@@ -22,6 +22,7 @@ execute as @n[tag=aj.main_ui.root,tag=!synced] on passengers as @s[tag=aj.main_u
 execute as @n[tag=aj.main_ui.root,tag=!synced] on passengers as @s[tag=aj.main_ui.item_display.hook_item] run tag @s add menu.slot.hook
 execute as @n[tag=aj.main_ui.root,tag=!synced] on passengers as @s[tag=aj.main_ui.item_display.bobber_item] run tag @s add menu.slot.bobber
 
+execute as @e[tag=menu.slot,tag=!synced] run function fish:storage/menu/get
 
 execute as @n[tag=aj.main_ui.root,tag=!synced] run function animated_java:main_ui/animations/spawn/play
 execute as @n[tag=aj.main_ui.root,tag=!synced] run rotate @s ~ 0

@@ -11,6 +11,7 @@ execute on target as @s[tag=!this.player] at @s run playsound block.stone_button
 
 execute if entity @p[tag=this.player] run function fish:menu/hitbox/check_pass
 
+
 tag @a[tag=this.player] remove this.player
 execute as @e[tag=this.menu] run tag @s remove this.menu
 tag @s remove this.interaction
