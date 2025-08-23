@@ -49,6 +49,13 @@ scoreboard objectives add fish.stat.sea_blessing.stack dummy
 
 scoreboard objectives add fish.stat.luck dummy
 
+scoreboard objectives add fish.stat.fishing_power.add dummy
+scoreboard objectives add fish.stat.lure_power.add dummy
+scoreboard objectives add fish.stat.bait_power.add dummy
+scoreboard objectives add fish.stat.sea_blessing.add dummy
+scoreboard objectives add fish.stat.luck.add dummy
+
+
 scoreboard objectives add fish.stat.completion dummy
 
 

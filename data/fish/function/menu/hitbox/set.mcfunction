@@ -23,5 +23,6 @@ $data modify entity @s item.components set value {\
     },\
 }
 
+execute as @n[tag=this.menu] run function fish:menu/refresh/components
 
 $data modify storage fish:main player_storage.player$(player_id).components.$(component_type) set from entity @s item.components
