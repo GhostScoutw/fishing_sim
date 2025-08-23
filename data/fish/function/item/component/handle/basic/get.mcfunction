@@ -2,7 +2,7 @@
 give @s string[\
     item_model="components:blueprint/handle/basic_ui",\
     item_name={\
-        text:"Basic Handle",color:"green"\
+        text:"Pipe Handle",color:"green"\
     },\
     lore=[\
         {text:"(HANDLE COMPONENT)",italic:false,color:"aqua"},\

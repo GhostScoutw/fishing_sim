@@ -2,7 +2,7 @@
 give @s string[\
     item_model="components:blueprint/bobber/basic_ui",\
     item_name={\
-        text:"Basic Bobber",color:"green"\
+        text:"Pipe Bobber",color:"green"\
     },\
     lore=[\
         {text:"(BOBBER COMPONENT)",italic:false,color:"aqua"},\
