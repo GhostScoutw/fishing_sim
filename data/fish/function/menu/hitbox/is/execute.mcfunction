@@ -19,6 +19,7 @@ data modify storage component:temp rod set value {}
 data modify storage component:temp rod.item_model set from entity @p[tag=this.player] SelectedItem.components.minecraft:item_model
 data modify storage component:temp rod.item_name set from entity @p[tag=this.player] SelectedItem.components.minecraft:item_name
 data modify storage component:temp rod.lore set from entity @p[tag=this.player] SelectedItem.components.minecraft:lore
+data modify storage component:temp rod.max_stack_size set from entity @p[tag=this.player] SelectedItem.components.minecraft:max_stack_size
 
 #custom datas
 data modify storage component:temp rod.component_type set from entity @p[tag=this.player] SelectedItem.components.minecraft:custom_data.component_type

@@ -7,10 +7,12 @@ execute if data entity @s item.components run function fish:menu/hitbox/retrieve
 
 execute unless data entity @s item run data merge entity @s {item:{id:"minecraft:string",count:1}}
 
+
 $data modify entity @s item.components set value {\
     "minecraft:item_name":$(item_name),\
     "minecraft:item_model":"$(item_model)",\
     "minecraft:lore":$(lore),\
+    "minecraft:max_stack_size":$(max_stack_size),\
     "minecraft:custom_data":{\
         component_type:$(component_type),\
         compset_id:$(compset_id),\
