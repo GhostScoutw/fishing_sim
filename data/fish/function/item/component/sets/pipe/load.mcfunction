@@ -5,5 +5,4 @@ tellraw @s [{"text":"Equipped the ","color":"green"},\
             {"text":"to find out its effects!"}]
 
 
-scoreboard players add @s fish.stat.lure_power.add 20
-scoreboard players remove @s fish.stat.bait_power.add 20
+$function fish:item/component/sets/$(compset)/stats {compset:"$(compset)"}

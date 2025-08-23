@@ -1,2 +1,2 @@
 
-$tellraw @s $(item_name)
+#$tellraw @s $(item_name)

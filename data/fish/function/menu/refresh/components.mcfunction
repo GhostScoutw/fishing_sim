@@ -11,6 +11,8 @@ execute on passengers as @s[tag=menu.slot] run function fish:menu/refresh/compon
 #get set bonus
 execute on passengers as @s[tag=menu.slot] run function fish:menu/refresh/components/setbonus with entity @s item.components."minecraft:custom_data"
 
+execute on passengers as @s[tag=menu.slot] run function fish:menu/refresh/components/settagsremove with entity @s item.components."minecraft:custom_data"
+
 #get behaviour and multipliers
 execute on passengers as @s[tag=menu.slot] run function fish:menu/refresh/components/specialbehaviour with entity @s item.components."minecraft:custom_data".specialbehaviour
 

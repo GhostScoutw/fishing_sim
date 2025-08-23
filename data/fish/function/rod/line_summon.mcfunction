@@ -15,8 +15,9 @@ execute as @n[tag=init,tag=root.string] run scoreboard players operation @s fish
 
 execute as @n[tag=init,tag=root.string] run scoreboard players operation @s fish.rod.line.segment = @n[tag=this.tip] fish.rod.line.segment
 
-execute as @n[tag=init,tag=root.string] at @s positioned ^ ^ ^0.5 run function fish:rod/line/summon_segments
 
+
+execute as @n[tag=init,tag=root.string] at @s positioned ^ ^ ^0.5 run function fish:rod/line/summon_segments
 
 function fish:storage/rod/get
 execute as @e[tag=this.tip] run tag @s remove this.tip

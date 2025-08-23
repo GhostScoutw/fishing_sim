@@ -17,8 +17,11 @@ execute if score @s fish.rod.line.segment matches 0 run summon item_display ~ ~ 
 scoreboard players operation @n[tag=init,tag=rod.string,tag=!root.string] fish.rod.line.segment = @s fish.rod.line.segment
 
 scoreboard players operation @n[tag=init,tag=rod.string,tag=!root.string] fish.generic.id = @n[tag=this.tip] fish.generic.id
-tag @e[tag=init,tag=rod.string] remove init
 
+execute as @e[tag=rod.bobber,tag=init] run function fish:storage/rod/get
+execute as @e[tag=!rod.bobber,tag=init,tag=rod.string] run function fish:storage/rod/get
+
+tag @e[tag=init,tag=rod.string] remove init
 
 
 execute if score @s fish.rod.line.segment matches 0 run return run scoreboard players operation @s fish.rod.line.segment = @n[tag=this.tip] fish.rod.line.segment
