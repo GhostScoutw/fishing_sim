@@ -39,6 +39,7 @@ scoreboard objectives add fish.pool.roll dummy
 scoreboard objectives add fish.stat.coins dummy
 scoreboard objectives add fish.stat.total_caught dummy
 scoreboard objectives add fish.stat.rank dummy
+scoreboard objectives add fish.stat.set_active dummy
 
 scoreboard objectives add fish.stat.fishing_power dummy
 scoreboard objectives add fish.stat.lure_power dummy

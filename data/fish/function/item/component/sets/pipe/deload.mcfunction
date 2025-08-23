@@ -1,0 +1,1 @@
+tellraw @s [{"text":"The ","color":"dark_gray"},{"text":"Pipe ","color":"#9C5A3C"},{text:"set bonus is no longer active. "}]
