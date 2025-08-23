@@ -15,7 +15,7 @@ $data modify entity @s item.components set value {\
     "minecraft:max_stack_size":$(max_stack_size),\
     "minecraft:custom_data":{\
         component_type:$(component_type),\
-        compset_id:$(compset_id),\
+        compset:$(compset),\
         location:"$(location)",\
         display_model:"$(display_model)",\
         addstats:$(addstats),\

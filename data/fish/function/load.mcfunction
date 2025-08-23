@@ -58,7 +58,7 @@ scoreboard objectives add fish.stat.luck.add dummy
 
 scoreboard objectives add fish.stat.completion dummy
 
-
+scoreboard objectives add fish.temp dummy
 scoreboard objectives add fish.constant dummy
 scoreboard players set 10 fish.constant 10
 

@@ -19,7 +19,7 @@ give @s string[\
     custom_data={\
         component_type:"body",\
         location:"body/basic",\
-        compset_id:1,\
+        compset:"pipe",\
         display_model:"components:blueprint/body/basic",\
         addstats:{\
             fishing_power:40,\

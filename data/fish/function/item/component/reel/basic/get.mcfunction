@@ -18,7 +18,7 @@ give @s string[\
     custom_data={\
         component_type:"reel",\
         location:"reel/basic",\
-        compset_id:1,\
+        compset:"pipe",\
         display_model:"components:blueprint/reel/basic",\
         addstats:{\
             fishing_power:0,\

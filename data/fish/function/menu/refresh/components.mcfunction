@@ -8,6 +8,8 @@ scoreboard players set @p[tag=this.player] fish.stat.luck 0
 #get stats
 execute on passengers as @s[tag=menu.slot] run function fish:menu/refresh/components/addstats with entity @s item.components."minecraft:custom_data".addstats
 
+#get set bonus
+execute on passengers as @s[tag=menu.slot] run function fish:menu/refresh/components/setbonus with entity @s item.components."minecraft:custom_data"
 
 
 

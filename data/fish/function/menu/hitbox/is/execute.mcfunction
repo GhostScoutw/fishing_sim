@@ -23,7 +23,7 @@ data modify storage component:temp rod.max_stack_size set from entity @p[tag=thi
 
 #custom datas
 data modify storage component:temp rod.component_type set from entity @p[tag=this.player] SelectedItem.components.minecraft:custom_data.component_type
-data modify storage component:temp rod.compset_id set from entity @p[tag=this.player] SelectedItem.components.minecraft:custom_data.compset_id
+data modify storage component:temp rod.compset set from entity @p[tag=this.player] SelectedItem.components.minecraft:custom_data.compset
 data modify storage component:temp rod.location set from entity @p[tag=this.player] SelectedItem.components.minecraft:custom_data.location
 data modify storage component:temp rod.component_type set from entity @p[tag=this.player] SelectedItem.components.minecraft:custom_data.component_type
 data modify storage component:temp rod.display_model set from entity @p[tag=this.player] SelectedItem.components.minecraft:custom_data.display_model
