@@ -18,6 +18,7 @@ give @s string[\
         {text:"+0 ⛵ sea blessing",italic:false,color:"light_purple"},\
         {text:"+0 🪙 luck",italic:false,color:"green"},\
         ],\
+    max_stack_size=1,\
     custom_data={\
         component_type:"handle",\
         location:"handle/basic",\
