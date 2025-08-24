@@ -1,3 +1,3 @@
 
-stopsound @a * extra:blueprint/meadows
-stopsound @a * extra:blueprint/plains
+stopsound @a * extra:music.meadows
+stopsound @a * extra:music.plains

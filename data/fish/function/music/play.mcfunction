@@ -8,6 +8,6 @@ $tellraw @a [{"text":"Now Playing ","color":"green"},{"text":"[$(name)]",color:a
 
 function fish:music/stop_all
 $say $(play_id)
-$playsound $(play_id) record @a 0 0 0 100000 1
+$playsound $(play_id) record @a 0 0 0 1 1 1
 
 $schedule function fish:music/play_random $(duration) replace
