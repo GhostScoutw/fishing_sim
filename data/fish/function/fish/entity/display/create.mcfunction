@@ -16,5 +16,3 @@ $execute as @n[tag=fish.display,tag=init] at @s rotated ~$(randx) ~ run tp @s ^ 
 execute as @n[tag=fish.display,tag=init] run scoreboard players set @s fish.generic.lifetime 60
 
 execute as @n[tag=fish.display,tag=init] run tag @s remove init
-
-summon text_display ~ ~ ~ {background:0}
