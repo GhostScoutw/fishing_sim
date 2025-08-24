@@ -1,7 +1,5 @@
 
 
-
-
 tellraw @a {"text":"Line is cast","color":"aqua","underlined": true}
 
 scoreboard objectives add fish.generic.id dummy
@@ -64,3 +62,7 @@ scoreboard objectives add fish.constant dummy
 scoreboard players set 10 fish.constant 10
 
 execute unless score legiti_exclusive fish.config matches -2147483648..2147483647 run scoreboard players set legiti_exclusive fish.config 0
+
+
+function fish:music/list
+function fish:music/play_random
