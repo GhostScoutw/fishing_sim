@@ -1,5 +1,5 @@
 
-$tellraw @a [{"text":"Now Playing ","color":"green"},{"text":"[$(name)]",color:aqua,\
+$tellraw @a[tag=!music_disabled] [{"text":"Now Playing ","color":"green"},{"text":"[$(name)]",color:aqua,\
     "hover_event":{"action":"show_text","value":[\
         {"text":"Author: ","color":"white"},{"text":"$(author)","color":"aqua"},\
         {"text":"\nTaken from ","color":"white"},{"text":"$(origin)","color":"aqua"},]\
@@ -7,6 +7,6 @@ $tellraw @a [{"text":"Now Playing ","color":"green"},{"text":"[$(name)]",color:a
 }]
 
 function fish:music/stop_all
-$playsound $(play_id) record @a 0 0 0 1 1 1
+$playsound $(play_id) record @a[tag=!music_disabled] 0 0 0 1 1 1
 
 $schedule function fish:music/play_random $(duration) replace

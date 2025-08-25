@@ -2,6 +2,8 @@
 execute unless score @s fish.generic.id matches -2147483648..2147483647 run function fish:player/get_id
 tag @s add this.player
 
+function fish:player/triggers
+
 scoreboard players remove @s[scores={fish.item_use=1..}] fish.item_use 1
 scoreboard players remove @s[scores={fish.item_cooldown=1..}] fish.item_cooldown 1
 
