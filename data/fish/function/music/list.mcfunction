@@ -40,5 +40,12 @@ data modify storage fish:main music_list set value {\
         "play_id":"extra:music.costa_del_sol",\
         "author":"Nobuo Uematsu",\
         "origin":"Final Fantasy VII",\
-        "duration":4380}\
+        "duration":4380},\
+        \
+    sunshine_seaside:{\
+        "name":"Sunshine Seaside",\
+        "play_id":"extra:music.sunshine_seaside",\
+        "author":"Koji Kondo - Nintendo",\
+        "origin":"Super Mario 3D World",\
+        "duration":4120}\
 }
