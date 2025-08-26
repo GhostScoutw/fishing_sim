@@ -6,7 +6,7 @@ $tellraw @a[tag=!music_disabled] [{"text":"Now Playing ","color":"green"},{"text
     }\
 }]
 
-tellraw @a[tag=!music_disabled,tag=!copyright_disabled] [{"text":"[!] ","color":"gold"},{"text":"Some music might be copyrighted, if you do not want the music to play, do ","color":"red"},{"text":"/trigger music_toggle.\nTo disable this message, do /trigger copyright_warning","color":"red"}]
+tellraw @a[tag=!music_disabled,tag=!musicwarn_disabled] [{"text":"[!] ","color":"gold"},{"text":"Some music might be copyrighted, if you do not want the music to play, do ","color":"red"},{"text":"/trigger music_toggle.\nTo disable this warning, do /trigger music_warning","color":"red"}]
 
 function fish:music/stop_all
 $playsound $(play_id) record @a[tag=!music_disabled] 0 0 0 1 1 1
