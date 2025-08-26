@@ -58,6 +58,7 @@ scoreboard objectives add fish.stat.luck.add dummy
 scoreboard objectives add fish.stat.completion dummy
 
 scoreboard objectives add music_toggle trigger
+scoreboard objectives add music_warning trigger
 
 scoreboard objectives add fish.temp dummy
 scoreboard objectives add fish.worldtimers dummy
