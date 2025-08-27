@@ -15,7 +15,7 @@ summon item_display ~ ~ ~ {Tags:["fish.entity","init"],teleport_duration:1,item:
         {"text":"a unique feature of their open circulatory system.","italic":false,"color":"aqua"}],\
 \
         custom_data:{fish:1b,\
-        value:10,\
+        value:35,\
         fish_id:1,\
         rarity:3\
         \

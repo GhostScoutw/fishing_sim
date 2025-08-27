@@ -63,6 +63,9 @@ scoreboard objectives add music_warning trigger
 scoreboard objectives add fish.temp dummy
 scoreboard objectives add fish.worldtimers dummy
 
+scoreboard objectives add fish.npc.id dummy
+scoreboard objectives add fish.npc.sell dummy
+
 scoreboard objectives add fish.constant dummy
 scoreboard players set 10 fish.constant 10
 

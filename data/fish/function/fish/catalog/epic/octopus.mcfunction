@@ -15,7 +15,7 @@ summon item_display ~ ~ ~ {Tags:["fish.entity","init"],teleport_duration:1,item:
         {"text":"have eight arms with suckers, and lack any kind of an skeleton.","italic":false,"color":"aqua"}],\
 \
         custom_data:{fish:1b,\
-        value:10,\
+        value:140,\
         fish_id:1,\
         rarity:4\
         \

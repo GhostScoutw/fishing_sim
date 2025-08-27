@@ -16,4 +16,7 @@ execute as @e[tag=fish.display] at @s run function fish:fish/entity/display/tick
 
 execute as @e[tag=menu.hitbox] at @s run function fish:menu/hitbox/tick
 
+execute as @e[tag=npc] at @s run function fish:npc/tick
+
+
 function fish:worldtimers/get

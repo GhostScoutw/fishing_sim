@@ -16,7 +16,7 @@ summon item_display ~ ~ ~ {Tags:["fish.entity","init"],teleport_duration:1,item:
         {"text":"cartilage, similar to sharks. ","italic":false,"color":"aqua"},],\
 \
         custom_data:{fish:1b,\
-        value:10,\
+        value:28,\
         fish_id:6,\
         rarity:2\
         \

@@ -16,7 +16,7 @@ summon item_display ~ ~ ~ {Tags:["fish.entity","init"],teleport_duration:1,item:
         {"text":"blend into their environment. ","italic":false,"color":"aqua"},],\
 \
         custom_data:{fish:1b,\
-        value:10,\
+        value:25,\
         fish_id:6,\
         rarity:2\
         \

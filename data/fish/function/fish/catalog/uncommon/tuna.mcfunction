@@ -16,7 +16,7 @@ summon item_display ~ ~ ~ {Tags:["fish.entity","init"],teleport_duration:1,item:
         {"text":"of miles across oceans and dive to significant depths. ","italic":false,"color":"aqua"},],\
 \
         custom_data:{fish:1b,\
-        value:10,\
+        value:20,\
         fish_id:4,\
         rarity:2\
         \

@@ -15,7 +15,7 @@ summon item_display ~ ~ ~ {Tags:["fish.entity","init"],teleport_duration:1,item:
         {"text":"while the third circulates blood to the rest of the body. ","italic":false,"color":"aqua"}],\
 \
         custom_data:{fish:1b,\
-        value:10,\
+        value:140,\
         fish_id:1,\
         rarity:4\
         \
