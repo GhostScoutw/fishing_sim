@@ -1,3 +1,3 @@
 {
-	"values": ["animated_java:fishing_rod/on_load", "animated_java:main_ui/on_load"]
+	"values": ["animated_java:bestiary/on_load", "animated_java:fishing_rod/on_load", "animated_java:main_ui/on_load"]
 }
